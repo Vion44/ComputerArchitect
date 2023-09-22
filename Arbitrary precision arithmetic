@@ -1,8 +1,6 @@
 #include <stdio.h>
-#include <gmp.h>
-#pragma warning(disable:4996) 
-// 정밀도 정수 사칙연산을 위해서는 GNU 에서 제공하는 mpir 라이브러리를 임포트 해야한다.
-// 또한 scnaf 반환값이 무시되는 오류가 발생한다. #pragma warning(disable:4996) 코드를 입력해야 하며
+#include <gmp.h> // 정밀도 정수 사칙연산을 위해서는 GNU 에서 제공하는 mpir 라이브러리를 임포트 해야한다.
+#pragma warning(disable:4996) // 또한 scnaf 반환값이 무시되는 오류가 발생한다. #pragma warning(disable:4996) 코드를 입력해야 한다.
 // 프로젝트 속성에서 SDL 값을 아니오로 설정해야 한다.
 
 int main() {
